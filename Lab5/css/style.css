@@ -1,0 +1,31 @@
+ul li {
+    font-size: .9rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+}
+
+/* Primer Valor */
+ul li:nth-child(1)
+{
+    color: #0044FF;
+}
+/* Segundo Valor */
+ul li:nth-child(2)
+{
+    color: #0066FF;
+}
+/* Tercer Valor */
+ul li:nth-child(3)
+{
+    color: #0088FF;
+}
+/* Cuarto Valor */
+ul li:nth-child(4)
+{
+    color: #55AAFF;
+}
+/* Quinto Valor */
+ul li:nth-child(5)
+{
+    color: #77CCFF;
+}
