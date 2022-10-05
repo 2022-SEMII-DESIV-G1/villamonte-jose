@@ -1,0 +1,24 @@
+#wrapper {
+    border: 1px solid black;
+    padding: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    width: 58.5vh;
+}
+
+#name {
+    color: #375e97;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#headerLine {
+    margin-top: -1rem;
+    color: #375e97; 
+}
+#jobTitle {
+    color: #999999; 
+}
+
+#list a {
+    color: #fb6542; 
+}
