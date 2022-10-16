@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+    #mainBox {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 16.7%;
+        background-color: #023361;
+        height: 23.65em;
+        width: 59.5vh;
+        border-radius: 0.6em;
+    }
+
+        #dataBox {
+            margin-top: 13.7%;
+            width: 100%;
+            height: fit-content;
+            width: 72.5%;
+            color: white;
+        }
+
+            #titulo {
+                text-align: center;
+                font-weight: bolder;
+                font-size: 2.1em;
+                letter-spacing: 0.02em;
+                width: 100%;
+            }
+
+            #subtitulo {
+                margin-top: 13.5%;
+                font-size: 0.8em;
+                font-weight: 500;
+            }
+
+            #textInput {
+                outline: none;
+                border: none;
+                margin-top: 1%;
+                height: 2.75em;
+                width: 92%;
+                border-radius: 0.3em;
+                padding: 0% 4%;
+                font-weight: bold;
+                font-size: 1.05em;
+                letter-spacing: 0.02em;
+            }
+
+            #buttonBox {
+                display: flex;
+                justify-content: right;
+                /* justify-content: space-between;  ---> JS (onClick "calcBtn")   */
+                margin-top: 10.5%;
+                width: 100%;
+            }
+
+                #cleanBtn {
+                    display: none;
+                    /* display: flex;  ---> JS (onClick "calcBtn") */   
+                    justify-content: center;
+                    background-color: #FF0000;
+                    color: white;
+                    outline: none;
+                    border: none;
+                    padding: 2.85% 6%;
+                    width: 35.5%;
+                    border-radius: 0.3em;
+                    font-size: 0.97em;
+                    letter-spacing: 0.05em;
+                    font-weight: 600;
+                }
+
+                #calcBtn {
+                    justify-content: center;
+                    background-color: #0085FF;
+                    color: white;
+                    outline: none;
+                    border: none;
+                    padding: 2.85% 6%;
+                    width: 35.5%;
+                    border-radius: 0.3em;
+                    font-size: 0.97em;
+                    letter-spacing: 0.05em;
+                    font-weight: 600;
+                }
+    #resultBox {
+        display: flex;
+        justify-content: left;
+        position: fixed;
+        top: 62%;
+        width: 59.5vh;
+        font-weight: bold;
+        font-size: 1.4em;
+        letter-spacing: 0.03em;
+    }
+        #resultado {
+            display: flex;
+            justify-content: left;
+            position: fixed;
+            top: 68%;
+            width: 59.5vh;
+            font-weight: bold;
+            font-size: 1.15em;
+        }
